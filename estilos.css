@@ -1,0 +1,56 @@
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 200 to 900
+
+.source-sans 3-<uniquifier> {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body{
+    font-family:'Source sans 3',sans-serif;
+    font-size: 24px;
+    
+}
+main{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-style: outset;
+    border-color: #04146c;
+    
+    
+}
+h1,h3,p{
+    color: #04146c;
+}
+h2{
+    font-size: 2em;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: #04146c;
+
+}
+h1{
+    font-size: 3em;
+    font-weight: 900;
+
+}
+h3{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+p{
+    font-size: 1em;
+    font-weight: 400;
+    background-color: #edf7ff;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+img{
+    width: 90%;
+}
